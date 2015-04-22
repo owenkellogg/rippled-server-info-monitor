@@ -1,0 +1,16 @@
+{
+  "name": "server_info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-statsd": "^0.1.1",
+    "promise-while": "^1.0.1",
+    "ripple-lib": "^0.12.3"
+  }
+}
