@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node statsd.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.24",
+    "hbase": "^0.2.0",
+    "moment": "^2.10.2",
     "node-statsd": "^0.1.1",
     "promise-while": "^1.0.1",
-    "ripple-lib": "^0.12.3"
+    "ripple-lib": "^0.12.3",
+    "underscore": "^1.8.3"
   }
 }

@@ -8,7 +8,16 @@ Subclass to add extensible behavior.
 
 - babel-node for ES6 support
 
-## Example Usage
+## Default Usage
+
+By default the nodes in peers.json are loaded and their server_info
+is logged to graphite.rippletest.net every two seconds
+
+````
+npm run start
+````
+
+## Example Custom Usage
 
 ````
 import ServerInfo from '../lib/server_info'
