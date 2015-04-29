@@ -12,7 +12,12 @@ let statsd = new StatsD({
   port: STATSD_PORT
 })
 
-peers = _.union(peers['r.ripple.com'], peers['sydney'], peers['client_handlers'])
+peers = _.union(
+  peers['r.ripple.com'],
+  peers['sydney_cluster_1'],
+  peers['sydney_cluster_2'],
+  peers['client_handlers']
+)
 
 let supervisor = new StatsdSupervisor(statsd, peers)
 
